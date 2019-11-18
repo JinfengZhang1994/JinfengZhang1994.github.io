@@ -1,5 +1,4 @@
-[TOC]
-
+@[toc]
 ## nvidia显卡驱动
 ```bash
 zjf@zjf-SYS-7048GR-TR:~$ nvidia-smi 
@@ -46,8 +45,8 @@ Cuda compilation tools, release 8.0, V8.0.61
 ```
 ## cuda8.0
 ***
-![](/home/zjf/Desktop/zjf_notebook/pics/cuda_install_1.png) 
-![](/home/zjf/Desktop/zjf_notebook/pics/cuda_install_2.png) 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191118134741860.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3pqZjI1NDM3NzE5NjQ=,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20191118134955180.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3pqZjI1NDM3NzE5NjQ=,size_16,color_FFFFFF,t_70)
 [安装教程](https://blog.csdn.net/QLULIBIN/article/details/80728355)
 
 ## opencv2.4.11
@@ -125,7 +124,7 @@ make: *** [.build_release/lib/libcaffe.so.1.0.0] Error 1
 **error-1:**
 ```bash
 /usr/include/c++/7/type_traits(539): error: expected a ">"
-``` 
+```
 解决方法：
 运行make all -j8时使用gcc,g++5版本
 运行sudo make runtest -j8时使用gcc,g++7版本
